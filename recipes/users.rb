@@ -30,6 +30,7 @@ end
 
 node.default["authorization"]["sudo"]["groups"] = [
   "sudo",
+  "ubuntu"
   node["appbox"]["admin_user"],
   node["appbox"]["deploy_user"]  # TODO workaround to enable deployer to restart app
 ]
